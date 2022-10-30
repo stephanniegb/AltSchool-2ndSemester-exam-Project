@@ -1,0 +1,7 @@
+.repoDiv a{
+    color: var(--white);
+}
+.repoDiv span{
+    color: var(--pink);
+    font-weight: bold;
+}

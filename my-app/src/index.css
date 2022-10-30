@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+:root{
+  --bgcolor: #041B2D;
+  --white:#F2F2F2;
+  --pink:#EA4492;
+}
+nav{
+  background-color: var(--pink);
+  padding: 1rem;
+}
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--white);
+  background-color: var(--bgcolor);
+}
+h1, h2, h3{
+  margin: 0;
+}
