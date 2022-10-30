@@ -1,5 +1,14 @@
 .repoDiv a{
     color: var(--white);
+    
+}
+.repoDiv .backBtn{
+    background-color: var(--pink);
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--bgcolor);
+    margin-left: 85%;
 }
 .repoDiv span{
     color: var(--pink);

@@ -85,7 +85,6 @@ function Home() {
                 {github.blog}
               </a>{" "}
               <br />
-              <FontAwesomeIcon icon="fa-brands fa-facebook" />
               <a
                 className="links"
                 href={`https://twitter.com/${github.twitter_username}`}

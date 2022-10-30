@@ -7,18 +7,17 @@ function Repos() {
   return (
     <div>
       {repos.map((repo) => {
-      const {name,created_at,has_pages,language,license,html_url,default_branch, ...rest} = repo
-      console.log(license);
+      const {name,created_at,has_pages,language,license,html_url,default_branch,id, ...rest} = repo
       if (name == repoName){
         return(
-          <div className='repoDiv'>
+          <div className='repoDiv' key={id}>
             <p><span>Created on:</span> {created_at}</p>
             <p><span>Language:</span> {language}</p>
             <p><span>Defualt branch:</span> {default_branch}</p>
-            <p><span>License:</span> {license.name}</p>
+            {license == null ? <p><span>License:</span>None</p>:<p><span>License: </span>{license.name}</p> }
             <p><span>Visit repository:</span> <a href={`https://github.com/stephanniegb/${name}`} 
             target="_blank" rel="noopener noreferrer">{html_url}</a></p>
-            <Link to={'/'}>Back</Link>
+            <Link to={'/'} className='backBtn'>Back</Link>
           </div>
         )
       }
