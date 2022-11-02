@@ -1,9 +1,9 @@
 # AltSchool Second Semester Exam Project
 
-This is a solution to the [Github Portfoilio question](#)
+This is a solution to the [Github Portfoilio question](https://docs.google.com/document/d/1c2JtC8HWKuRxYRd70BhqsBZG7l6gUhy-szUGviucVC8/edit)
 
 - [Overview](#overview)
-  - [The question](#the-question)
+  - [The Task](#the-task)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -12,7 +12,7 @@ This is a solution to the [Github Portfoilio question](#)
 
 ## Overview
 
-### The Question
+### The Task
 
 Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub(the page should implement pagination for the repo list), and create another page showing data for a single repo clicked from the list of repos using nested routes while using all the necessary tools in react. Implement the proper SEO, Error Boundary (show a page to test the error boundary) and 404 pages. Good UI and Designs are important. 
 
@@ -21,8 +21,8 @@ Implement an API fetch of your GitHub portfolio, show a page with a list of all 
 ![](./my-app/public/Screenshot%202022-11-02%20at%2017-25-10%20stephaniegb.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/stephanniegb/stephanniegb.github.io)
-- Live Site URL: [Add live site URL here](https://stephaniegb-calc-app-1ff339.netlify.app/)
+- Solution URL: [Code Url](https://github.com/stephanniegb/stephanniegb.github.io)
+- Live Site URL: [Live site URL](https://stepahnieegbuonualtschgithubproject.netlify.app/)
 
 
 ## My process
@@ -40,5 +40,5 @@ Implement an API fetch of your GitHub portfolio, show a page with a list of all 
 ## Author
 
 - LinkedIn - [Stephanie Egbuonu](https://www.linkedin.com/in/stephanie-egbuonu-809aa120a/)
-- Twitter - [Stephanie Egbuonu](https://www.twitter.com/stephanniegb)
-- Medium - [@steohaniegb](https://medium.com/@stephanieegbuonu)
+- Twitter - [@stephanniegb](https://www.twitter.com/stephanniegb)
+- Medium - [Stephanie Egbuonu](https://medium.com/@stephanieegbuonu)
