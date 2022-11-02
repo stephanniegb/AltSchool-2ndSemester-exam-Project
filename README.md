@@ -1,9 +1,9 @@
 # AltSchool Second Semester Exam Project
 
-This is a solution to the [Github Portfoilio question](#)
+This is a solution to the [Github Portfoilio question](https://docs.google.com/document/d/1c2JtC8HWKuRxYRd70BhqsBZG7l6gUhy-szUGviucVC8/edit)
 
 - [Overview](#overview)
-  - [The question](#the-question)
+  - [The Task](#the-task)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -12,7 +12,7 @@ This is a solution to the [Github Portfoilio question](#)
 
 ## Overview
 
-### The Question
+### The Task
 
 Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub(the page should implement pagination for the repo list), and create another page showing data for a single repo clicked from the list of repos using nested routes while using all the necessary tools in react. Implement the proper SEO, Error Boundary (show a page to test the error boundary) and 404 pages. Good UI and Designs are important. 
 
