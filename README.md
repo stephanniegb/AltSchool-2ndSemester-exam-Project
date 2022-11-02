@@ -21,8 +21,8 @@ Implement an API fetch of your GitHub portfolio, show a page with a list of all 
 ![](./my-app/public/Screenshot%202022-11-02%20at%2017-25-10%20stephaniegb.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/stephanniegb/stephanniegb.github.io)
-- Live Site URL: [Add live site URL here](https://stephaniegb-calc-app-1ff339.netlify.app/)
+- Solution URL: [Code Url](https://github.com/stephanniegb/stephanniegb.github.io)
+- Live Site URL: [Live site URL](https://stephaniegb-calc-app-1ff339.netlify.app/)
 
 
 ## My process
