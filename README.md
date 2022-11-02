@@ -22,7 +22,7 @@ Implement an API fetch of your GitHub portfolio, show a page with a list of all 
 ### Links
 
 - Solution URL: [Code Url](https://github.com/stephanniegb/stephanniegb.github.io)
-- Live Site URL: [Live site URL](https://stephaniegb-calc-app-1ff339.netlify.app/)
+- Live Site URL: [Live site URL](https://stepahnieegbuonualtschgithubproject.netlify.app/)
 
 
 ## My process
