@@ -40,5 +40,5 @@ Implement an API fetch of your GitHub portfolio, show a page with a list of all 
 ## Author
 
 - LinkedIn - [Stephanie Egbuonu](https://www.linkedin.com/in/stephanie-egbuonu-809aa120a/)
-- Twitter - [Stephanie Egbuonu](https://www.twitter.com/stephanniegb)
-- Medium - [@steohaniegb](https://medium.com/@stephanieegbuonu)
+- Twitter - [@stephanniegb](https://www.twitter.com/stephanniegb)
+- Medium - [Stephanie Egbuonu](https://medium.com/@stephanieegbuonu)
