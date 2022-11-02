@@ -1,11 +1,20 @@
 import React from 'react'
 import {useOutletContext, Link} from 'react-router-dom'
+import {Helmet} from 'react-helmet-async'
 import '../styles/repos.css'
 
 function Repos() {
   const [repos, repoName] = useOutletContext();
   return (
     <div>
+      <Helmet>
+        <title>Repositories</title>
+        <meta
+        name="description"
+        content="Stephanie Egbuonu's repositories "
+         />
+         <link rel="canonical" href="/repos/:repoName" />
+      </Helmet>
       {repos.map((repo) => {
       const {name,created_at,has_pages,language,license,html_url,default_branch,id, ...rest} = repo
       if (name == repoName){

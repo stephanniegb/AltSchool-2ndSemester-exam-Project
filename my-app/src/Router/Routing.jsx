@@ -6,7 +6,7 @@ import { ErrorBoundary, ErrorPage, Home, NoPage, Repos } from '../Components'
 
 function Routing() {
   return (
-   <>
+   <div className='bodyWrapper'>
    <Routes>
     <Route path='/' element={<Home/>}>
       <Route path='repos/:repoName' element={<Repos/>}/>
@@ -18,7 +18,7 @@ function Routing() {
       </ErrorBoundary>
     }/>
    </Routes>
-   </>
+   </div>
   )
 }
 

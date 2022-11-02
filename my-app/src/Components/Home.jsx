@@ -3,7 +3,9 @@ import { useParams } from "react-router-dom";
 import "../styles/home.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faLink, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import { Pagination, Loader } from './index';
+import {Helmet} from 'react-helmet-async'
 
 function Home() {
   const [github, setGithub] = useState("");
@@ -32,6 +34,14 @@ function Home() {
   
   return (
     <div >
+      <Helmet>
+        <title>Home page</title>
+        <meta
+        name="description"
+        content="Stephanie Egbuonu's github profile "
+         />
+         <link rel="canonical" href="/" />
+      </Helmet>
       {isLoading ? (
         <Loader />
       ) : (
@@ -49,7 +59,8 @@ function Home() {
               <p>{github.bio}</p>
             </div>
             <div className="links_wrapper">
-            <FontAwesomeIcon icon={faLink}/> 
+              <div>
+              <FontAwesomeIcon icon={faLink}/> 
               <a
                 className="links"
                 href={`https://${github.blog}`}
@@ -58,7 +69,9 @@ function Home() {
               >
                 {github.blog}
               </a>{" "}
-              <br />
+              </div>
+              <div>
+              <FontAwesomeIcon icon={faTwitter}/>
               <a
                 className="links"
                 href={`https://twitter.com/${github.twitter_username}`}
@@ -67,8 +80,9 @@ function Home() {
               >
                 @{github.twitter_username}
               </a>
+              </div>
               <div>
-              <FontAwesomeIcon icon={faLocationDot}/> <span>{github.location}</span>
+              <FontAwesomeIcon icon={faLocationDot}/> <span style={{marginLeft:'2%'}}>{github.location}</span>
               </div>
             </div>
           </section>
@@ -78,5 +92,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;

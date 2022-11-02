@@ -33,7 +33,7 @@ function Pagination({ repos, repoName }) {
         const { html_url, name, id, ...rest } = gitRepo;
         return (
           <>
-            <Link key={name} to={`repos/${name}`} className="repoLinks">
+            <Link key={name} to={`repos/${name}`} className={name == repoName ? 'repoActive' : 'repoLinks' }>
               <>
                 <h2>
                   {name} <span>&#8600;</span>

@@ -6,3 +6,7 @@ nav{
 nav a{
     text-decoration: none;
 }
+.bodyWrapper{
+    max-width: 1500px;
+    margin-inline: auto;
+}
